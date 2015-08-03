@@ -1,0 +1,13 @@
+{
+  "name": "incaroads",
+  "dependencies": {
+    "jquery": "2.1.2",
+    "skeleton": "2.0.4",
+    "masonry": "~3.2.2",
+    "ionicons": "~2.0.1",
+    "pace": "~1.0.2",
+    "jquery-smooth-scroll": "~1.5.4",
+    "font-awesome": "~4.3.0",
+    "bourbon": "~4.2.1"
+  }
+}

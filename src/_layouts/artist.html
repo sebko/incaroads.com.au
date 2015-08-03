@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div class="section first artist">
+    <div class="container">
+    <div class="row">
+      <div class="five columns">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.bio }}</p>
+        <p>
+          {{page.bio2}}
+        </p>
+        <iframe allowtransparency="true" scrolling="no" frameborder="no" 
+        src="https://w.soundcloud.com/icon/?url={{page.soundcloud}}&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe>
+        <a class="artistfb" target="_blank" href="{{page.facebook}}"><i class="ion-social-facebook"></i></a>
+      </div>
+      <div class="seven columns">
+        <img src="/assets/images/lineup/{{page.image }}" alt="">
+      </div>
+    </div>
+
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>
+
