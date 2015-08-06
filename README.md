@@ -14,7 +14,7 @@ Now you know all of my secrets!
 ## Yeoman Generator Used
 - [Jekyllized Yeoman Generator](https://github.com/sondr3/generator-jekyllized)
 
-## Getting things running locally
+## Getting things running locallyl
 
     $ git clone git@github.com:sebko/incaroads.com.au.git
     $ cd incaroads.com.au
