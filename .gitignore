@@ -69,3 +69,6 @@ site
 # hide the AWS and Rsync credentials file
 aws-credentials.json
 rsync-credentials.json
+
+# Hide fonts
+src/assets/fonts
